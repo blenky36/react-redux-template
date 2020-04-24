@@ -13,7 +13,8 @@ const NavMenu = ({ onSignOutClicked }) => (
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                     <Nav.Link >Home</Nav.Link>
-                    <Nav.Link >Link</Nav.Link>
+                    <Nav.Link >Shares</Nav.Link>
+                    <Nav.Link >Trades</Nav.Link>
                 </Nav>
                 <Nav className="ml-auto">
                     <NavDropdown alignRight title={<FontAwesomeIcon icon={faUser} color="white" />} id="basic-nav-dropdown">

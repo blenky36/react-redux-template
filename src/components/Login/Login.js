@@ -4,12 +4,13 @@ import { Form, Button } from 'react-bootstrap';
 import { loginUser } from '../../_thunks/userThunks';
 
 const Login = ({ onSubmitClicked }) => {
-    const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('');
+    const [username, setUsername] = useState('test');
+    const [password, setPassword] = useState('test');
 
     return (
         <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20vh' }}>
             <div style={{ width: '30%' }}>
+                <h1>Trading Platform</h1>
                 <Form>
                     <Form.Group controlId="formBasicEmail">
                         <Form.Label>Email Address:</Form.Label>
