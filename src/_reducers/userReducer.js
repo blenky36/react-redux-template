@@ -1,6 +1,6 @@
 import { LOGIN_ATTEMPT, LOGIN_SUCCESS, LOGIN_FAILURE, LOGOUT_REQUEST } from '../_constants/actionTypes';
 
-const initialState = { userData: { token: null, username: null }, isLoggedIn: true, isLoading: false };
+const initialState = { userData: { token: null, username: null }, isLoggedIn: false, isLoading: false };
 
 export const userReducer = (state = initialState, action) => {
     const { type, payload } = action;
