@@ -9,9 +9,9 @@ const Layout = ({ children }) => {
         <div >
             <div id="wrapper">
                 <NavMenu />
-                <div id="content-wrapper" className="d-flex flex-column">
+                <div id="content-wrapper">
                     <div id="content">
-                        <div className="container-fluid">
+                        <div className="container-fluid" style={{ textAlign: 'center' }}>
                             {children}
                         </div>
                     </div>
