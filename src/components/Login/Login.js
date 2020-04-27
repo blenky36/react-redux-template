@@ -15,17 +15,13 @@ const Login = ({ onSubmitClicked }) => {
                     <Form.Group controlId="formBasicEmail">
                         <Form.Label>Email Address:</Form.Label>
                         <Form.Control value={username} onChange={(e) => setUsername(e.target.value)} type="email" placeholder="Enter email" />
-                        <Form.Text className="text-muted">
-                            Enter any details in these fields - no checks are currently being performed
-                </Form.Text>
+                        <Form.Text className="text-muted">Enter any details in these fields - no checks are currently being performed</Form.Text>
                     </Form.Group>
                     <Form.Group controlId="formBasicPassword">
                         <Form.Label>Password:</Form.Label>
                         <Form.Control value={password} onChange={(e) => setPassword(e.target.value)} type="password" placeholder="Password" />
                     </Form.Group>
-                    <Button variant="primary" type="submit" onClick={() => onSubmitClicked(username, password)}>
-                        Submit
-            </Button>
+                    <Button variant="primary" type="submit" onClick={() => onSubmitClicked(username, password)}>Submit</Button>
                 </Form>
             </div>
         </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import { connect } from 'react-redux';
 import { getIsUserLoggedIn } from './_selectors/userSelectors';
 import { Route, withRouter, Redirect, Switch } from 'react-router-dom';
