@@ -1,3 +1,3 @@
-### TRADING PLATFORM REACT
+### React Redux Template
 
-This repository includes the boiler plate setup for the trading platform front end written in react.
+This repository includes the boiler plate setup for new react projects using redux.
